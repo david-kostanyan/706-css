@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+/* selector {
+    property: value;
+    another-property: value;
+
+    команда в css в которой мы находим элемент на странице 
+} */
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* обнуление стилей */
+
+:root {
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    --text-color: #505155;
+    --border-color: #ccc;
+    --ui-brand-color:#F5A623;
+}
+/* коренным элементам */
+
+h1 {
+    color: var(--text-color);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.ui-brand {
+    color: var(--ui-brand-color);
+}
+
+.footer h2 {
+    color:var(--text-color);
+}
+
+.footer h2 span {
+    color: red;
+}
+
+/* .header-banner__h1 {
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#contacts > h2 {
+    color: green;
+} */
+
+
+
+
+
