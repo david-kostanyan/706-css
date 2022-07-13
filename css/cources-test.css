@@ -1,0 +1,36 @@
+/* .conteiner div {
+    display:flax;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+} */
+
+/* .conteiner div {
+    border: 1px solid black;
+    width: 100px;
+    height: 200px;
+
+} */
+
+/* .conteiner {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 20px; 
+} */
+
+/* @media(min-width:500px) {
+    .conteiner div {
+        display:flax;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding: 0 50px;
+    }
+
+} */
+
+

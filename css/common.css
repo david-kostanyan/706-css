@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Roboto&display=swap');
 
 /* selector {
     property: value;
@@ -17,11 +17,11 @@
 /* обнуление стилей */
 
 :root {
-    font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
-    --text-color: #505155;
+    font-family: 'DotGothic16', sans-serif;
+    --text-color: black;
     --border-color: #ccc;
     --ui-brand-color:#F5A623;
+    --background-color: rgb(50,206,211);
 }
 /* коренным элементам */
 
@@ -56,7 +56,10 @@ img {
     color: green;
 } */
 
-
+.conteiner {
+    max-width: 980px;
+    margin: auto ;   
+}
 
 
 
